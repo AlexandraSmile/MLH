@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b5ae83a-6fc9-4c6f-8ca3-3b633b9d407f" name="Default Changelist" comment="" />
+    <list default="true" id="2b5ae83a-6fc9-4c6f-8ca3-3b633b9d407f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/smoke/labelsCorrect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/smoke/smokeFunctional.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/expected.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/expected.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.13.10.test.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.13.10.test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/selenium-standalone/.selenium/chromiumedgedriver/latest-x64-msedgedriver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/selenium-standalone/.selenium/chromiumedgedriver/latest-x64-msedgedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/selenium-standalone/.selenium/chromiumedgedriver/latest-x64-msedgedriver.zip" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/selenium-standalone/.selenium/chromiumedgedriver/latest-x64-msedgedriver.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/initial.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/smoke/elementsExist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,19 +26,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1puc5pKatnm4bicfWlTVk9VzvhO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\WebstormProjects\MLH\test\smoke" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="My Little Hero.Elements exist" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -63,23 +86,23 @@
       <workItem from="1616044855139" duration="14000" />
       <workItem from="1616119744522" duration="5589000" />
       <workItem from="1616207645475" duration="8625000" />
-      <workItem from="1616639508672" duration="701000" />
+      <workItem from="1616639508672" duration="15708000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/initial.js</url>
-          <line>7</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
