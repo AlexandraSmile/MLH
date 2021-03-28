@@ -1,5 +1,6 @@
 import sel from '../../data/selectors';
 import {name, gender, age, story} from '../../data/testData';
+import inputValues4 from '../../helpers/methods';
 
 describe('Required fields and Story Created', function () {
 
@@ -19,17 +20,18 @@ describe('Required fields and Story Created', function () {
         let submitButton = $(sel.submitButton).isEnabled();
         expect(submitButton).toEqual(true);
     });
+
     it('TC-027 User is redirected to the story page', function () {
         browser.refresh();
-        $(sel.name).setValue(name.default);
-        $$(sel.radioButtons)[gender.she].click();
-        $(sel.age).setValue(age.default);
-        $(sel.storyType).click();
-        $$(sel.storyList)[story.comedy].click();
-        $(sel.submitButton).click();
-
+        inputValues4 (name.default, gender.she, age.default, story.comedy);
         browser.pause(2000);
 
+        // $(sel.name.js).setValue(name.js.default);
+        // $$(sel.radioButtons)[gender.she].click();
+        // $(sel.age).setValue(age.default);
+        // $(sel.storyType).click();
+        // $$(sel.storyList)[story.comedy].click();
+        $(sel.submitButton).click();
         let tryAgainButton = $(sel.tryAgainButton).isDisplayed();
         expect(tryAgainButton).toEqual(true);
 

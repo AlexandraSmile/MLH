@@ -9,7 +9,7 @@ const gender = {
 }
 
 const age = {
-    "default": "123456789"
+    "default": "1234567890"
 }
 
 const story = {
@@ -25,4 +25,6 @@ const story = {
 }
 
 module.exports = {name, gender, age, story};
+
+
 

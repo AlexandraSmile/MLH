@@ -188,7 +188,7 @@ exports.config = {
     // },
     /**
      * Runs before a WebdriverIO command gets executed.
-     * @param {String} commandName hook command name
+     * @param {String} commandName hook command name.js
      * @param {Array} args arguments that command would receive
      */
     // beforeCommand: function (commandName, args) {
@@ -231,7 +231,7 @@ exports.config = {
     // },
     /**
      * Runs after a WebdriverIO command gets executed
-     * @param {String} commandName hook command name
+     * @param {String} commandName hook command name.js
      * @param {Array} args arguments that command would receive
      * @param {Number} result 0 - command success, 1 - command error
      * @param {Object} error error object if any

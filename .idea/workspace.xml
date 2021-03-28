@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b5ae83a-6fc9-4c6f-8ca3-3b633b9d407f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/smoke/labelsCorrect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/smoke/smokeFunctional.js" afterDir="false" />
+    <list default="true" id="74513e36-ae49-4d59-9beb-51c520791c28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/helpers/methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/extended/age.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/extended/storyType.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/expected.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/expected.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/testData.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/testData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.13.10.test.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.13.10.test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/selenium-standalone/.selenium/chromiumedgedriver/latest-x64-msedgedriver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/selenium-standalone/.selenium/chromiumedgedriver/latest-x64-msedgedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/selenium-standalone/.selenium/chromiumedgedriver/latest-x64-msedgedriver.zip" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/selenium-standalone/.selenium/chromiumedgedriver/latest-x64-msedgedriver.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/initial.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/smoke/elementsExist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/smoke/labelsCorrect.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/smoke/labelsCorrect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/smoke/smokeFunctional.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/smoke/smokeFunctional.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,65 +27,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1puc5pKatnm4bicfWlTVk9VzvhO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1qLrI5q31CbyNWkqdQBab9GOAHN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\alexa\WebstormProjects\MLH\test\smoke" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="My Little Hero.Elements exist" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/test/initial.js</test-file>
-      <test-names>
-        <name value="My Little Hero" />
-        <name value="Elements exist" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Mocha.My Little Hero.Elements exist" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2b5ae83a-6fc9-4c6f-8ca3-3b633b9d407f" name="Default Changelist" comment="" />
-      <created>1616036234619</created>
+      <changelist id="74513e36-ae49-4d59-9beb-51c520791c28" name="Default Changelist" comment="" />
+      <created>1616869629022</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1616036234619</updated>
-      <workItem from="1616036235741" duration="7590000" />
-      <workItem from="1616044855139" duration="14000" />
-      <workItem from="1616119744522" duration="5589000" />
-      <workItem from="1616207645475" duration="8625000" />
-      <workItem from="1616639508672" duration="15708000" />
+      <updated>1616869629022</updated>
+      <workItem from="1616869630187" duration="451000" />
+      <workItem from="1616870488652" duration="8769000" />
     </task>
+    <task id="LOCAL-00001" summary="created testData, removed hard code from TC-026">
+      <created>1616874701472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616874701472</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,8 +74,8 @@
       </map>
     </option>
   </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created testData, removed hard code from TC-026" />
+    <option name="LAST_COMMIT_MESSAGE" value="created testData, removed hard code from TC-026" />
   </component>
 </project>

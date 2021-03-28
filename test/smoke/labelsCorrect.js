@@ -17,7 +17,7 @@ import exp from '../../data/expected.json';
             expect(instruction).toEqual(exp.Instruction);
         });
 
-        // it('TC-017 Name field label = "1. What is your Hero\' s name?"', function () {
+        // it('TC-017 Name field label = "1. What is your Hero\' s name.js?"', function () {
         //     let label = $$(sel.requiredLabel)[0].getText();
         //     expect(label).toEqual(exp.nameLabel);
         //
