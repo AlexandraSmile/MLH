@@ -20,7 +20,8 @@ const elements = {
     "image":"span.ant-upload",
     "submitButton":".ant-btn",
     "tryAgainButton": ".btn-primary",
-    "errorAlert": ".ant-form-item-explain"
+    "errorAlert": "div[role='alert']",
+    "overcomingTheMonsterSign": "[aria-activedescendant~=\"story_list_0\"]"
 
 
 }

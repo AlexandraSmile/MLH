@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74513e36-ae49-4d59-9beb-51c520791c28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/extended/storyTypeChanging.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/expected.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/expected.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/testData.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/testData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/methods.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.13.10.test.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.13.10.test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/extended/age.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/extended/age.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/selenium-standalone/.selenium/chromiumedgedriver/latest-x64-msedgedriver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/selenium-standalone/.selenium/chromiumedgedriver/latest-x64-msedgedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/selenium-standalone/.selenium/chromiumedgedriver/latest-x64-msedgedriver.zip" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/selenium-standalone/.selenium/chromiumedgedriver/latest-x64-msedgedriver.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/extended/name.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/extended/name.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/extended/storyType.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/extended/storyType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/smoke/labelsCorrect.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/smoke/labelsCorrect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
     </list>
     <list id="cba4896c-b37c-489a-8c65-e4e14692f185" name="created methods, function for TC-027" comment="duplicate" />
@@ -29,6 +31,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1qLrI5q31CbyNWkqdQBab9GOAHN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,8 +48,33 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Story type.Changing the type of the story.TC - 096 Change the type of the story from &quot;Comedy&quot; to &quot;Tragedy&quot; " type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/extended/storyTypeChanging.js</test-file>
+      <test-names>
+        <name value="Story type" />
+        <name value="Changing the type of the story" />
+        <name value="TC - 096 Change the type of the story from &quot;Comedy&quot; to &quot;Tragedy&quot; " />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.Story type.Changing the type of the story.TC - 096 Change the type of the story from &quot;Comedy&quot; to &quot;Tragedy&quot; " />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,7 +87,7 @@
       <updated>1616869629022</updated>
       <workItem from="1616869630187" duration="451000" />
       <workItem from="1616870488652" duration="10118000" />
-      <workItem from="1617041215524" duration="13100000" />
+      <workItem from="1617041215524" duration="48945000" />
     </task>
     <task id="LOCAL-00001" summary="created testData, removed hard code from TC-026">
       <created>1616874701472</created>
@@ -82,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616909979080</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test cases for story type, from TC-082 to TC - 095">
+      <created>1617172305103</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617172305103</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created testData, removed hard code from TC-026" />
     <MESSAGE value="created methods, function for TC-027" />
-    <option name="LAST_COMMIT_MESSAGE" value="created methods, function for TC-027" />
+    <MESSAGE value="test cases for story type, from TC-082 to TC - 095" />
+    <option name="LAST_COMMIT_MESSAGE" value="test cases for story type, from TC-082 to TC - 095" />
   </component>
 </project>

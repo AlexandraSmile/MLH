@@ -8,7 +8,7 @@ const name = {
     "specSymbol": "~!@#$%^&*()-_=+[]\\{}|;':\",./<>?'",
     "lettersSpace": "qwe qwe",
     "rusLetters": "йцукенгшщ",
-    "copyPast": "qwert12345",
+    "copyPaste": "qwert12345",
     "emptyField": "",
     "symbol71": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
 }

@@ -2,7 +2,7 @@
   "title": "MLH trial",
   "header": "My Little Hero",
   "Instruction": "Let's create your own HERO! It's super easy with our application!",
-  "nameLabel" : " What is your Hero' s name?",
+  "nameLabel" : "1. What is your Hero's name?",
   "genderLabel" : "Please choose a gender.",
   "heLabel": "he",
   "sheLabel": "she",
