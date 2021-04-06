@@ -57,6 +57,14 @@ describe('Story type', function () {
 
         });
 
+        it('TC - 103 Story Type label is highlighted when cursor hovers on it ', function () {
+            $(sel.storyType).click();
+            $(sel.storyList).moveTo();
+            let overcomingTheMonsterSign = $(sel.overcomingTheMonsterSign).isFocused();
+            expect(overcomingTheMonsterSign).toEqual(true);
+
+        });
+
         describe('Negative case for the Story Type', function () {
 
             it('TC - 104 Story Type field is required  ', function () {
@@ -64,28 +72,10 @@ describe('Story type', function () {
                 expect(negativeCase).toEqual(false);
 
             });
+
         });
     });
 });
 
 
-// it.only('TC - 103 Story Type label is highlighted when cursor hovers on it ', function () {
-//     $(sel.storyType).click();
-//     $(sel.storyList).moveTo();
-//     browser.pause(4000);
-//
-//     let overcomingTheMonsterSign = $(sel.overcomingTheMonsterSign).exists();
-//     expect(overcomingTheMonsterSign).toEqual(true);
-//
-// });
-//
-//
-// });
-// it('TC - 097 Change the type of the story with a function ', function () {
-//     $(sel.storyType).click();
-//     $$(sel.storyList)[story.ragsAndRiches].click();
-//     $(sel.storyType).click();
-//     const nextStory = $$(sel.storyList)[story.ragsAndRiches].nextElementSibling.click();
-//     browser.pause(2000);
-//     expect (nextStory).toEqual($$(sel.storyList)[story.ragsAndRiches].nextElementSibling).getText();
-// });
+
